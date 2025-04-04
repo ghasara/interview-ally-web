@@ -47,7 +47,7 @@ export default function Contact() {
                 <div className="space-y-4">
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">support@interviewally.com</p>
+                    <p className="text-muted-foreground">support@interviewally.tech</p>
                   </div>
                   <div>
                     <p className="font-medium">Support Hours</p>
@@ -103,7 +103,7 @@ export default function Contact() {
                     id="message"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
-                    className="bg-secondary/30 min-h-[120px]"
+                    className="bg-secondary/30 min-h-[80px]"
                     placeholder="How can we help you?"
                     required
                   />
